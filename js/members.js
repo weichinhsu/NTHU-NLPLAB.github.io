@@ -84,6 +84,15 @@ var members = {
             intro: '呵呵呵 好哦',
             link: 'https://youtu.be/7sbKm-hAlsw',
         },
+        {
+            name: '羅右鈞',
+            alias: 'Howard Lo',
+            research: 'Deep Learning for NLP <3',
+            img: 'img/howard.jpeg',
+            bkg_color: '#0d5b3c',
+            intro: '在不斷的掙扎天空出現一道彩虹，在不斷的懷疑之後找到原來的我。',
+            link: 'https://www.youtube.com/watch?v=pbLJxFBOs80'
+        }
     ],
     'Undergraduates': [
         {
