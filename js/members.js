@@ -106,7 +106,7 @@ var members = {
             name: '林昌毅',
             alias: 'Chungyilin',
             research: '5 4 tusi be ba',
-            img: 'img/chungyilin.jpg',
+            img: 'img/chungyilin.gif',
             bkg_color: '#EEAD0E',
             intro: '故人西辭黃鶴樓，煙花三月下揚州。 孤帆遠影碧空盡，唯見長江天際流。',
             link: 'https://www.youtube.com/watch?v=HSHOU1OVbaY',
