@@ -127,7 +127,7 @@ var members = {
             img: 'img/ashley.jpg',
             bkg_color: '#FFC0CB',
             intro: 'XDDDD',
-            link: '',
+            link: '#',
         },
     ],
     'Undergraduates': [

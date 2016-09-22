@@ -29,7 +29,7 @@ $(function() {
         
         ms_block +=  
         `<a class="col-md-3" ` + link + `>
-           <div class="thumbnail flipbox">
+           <div class="thumbnail flipbox grad">
              <div class="member-info front">
                <img class="img-responsive" src="` + img + `" alt="` + name + `">
                <h3>` + name + `<br ><small>` + alias + `</small></h3>
@@ -52,7 +52,7 @@ $(function() {
     for( i in members['Undergraduates']) {
         member = members['Undergraduates'][i];
         und_block +=  `<div class="col-md-3">
-        <div class="thumbnail flipbox">
+        <div class="thumbnail flipbox und">
             <div class="member-info front">
                 <h3>` + member.name + `<br><small>` + member.alias + `</small></h3>
                         <div class="caption">
