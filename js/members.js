@@ -18,13 +18,13 @@ var members = {
     ],
     'Master Students': [
         {
-            name: '葉玫慈',
-            alias: 'Mei-Cih',
-            research: 'Automatic Paraphrases Generation',
-            img: 'img/meichi.jpg',
-            bkg_color: '#DC143C',
-            intro: 'Ukulele是人生的一半(\'A`)',
-            link: 'https://youtu.be/z2Xsp0HMqf8',
+         name: '葉玫慈',
+         alias: 'Mei-Cih',
+         research: 'Automatic Paraphrases Generation',
+         img: 'img/meichi.jpg',
+         bkg_color: '#DC143C',
+         intro: 'Ukulele是人生的一半(\'A`)',
+         link: 'https://youtu.be/z2Xsp0HMqf8',
         },
         {
             name: '陳怡君',
@@ -88,6 +88,15 @@ var members = {
             bkg_color: '#EEAD0E',
             intro: '呵呵呵 好哦',
             link: 'https://youtu.be/7sbKm-hAlsw',
+        },
+        {
+            name: '彭成全',
+            alias: 'Zeno',
+            research: '',
+            img: 'img/zeno.jpg',
+            bkg_color: '#DC143C',
+            intro: 'なに',
+            link: 'https://www.youtube.com/watch?v=HAIDqt2aUek',
         },
     ],
     'Undergraduates': [
