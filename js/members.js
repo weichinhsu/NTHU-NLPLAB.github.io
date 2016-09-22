@@ -89,6 +89,15 @@ var members = {
             intro: '呵呵呵 好哦',
             link: 'https://youtu.be/7sbKm-hAlsw',
         },
+        {
+            name: '程尚謙',
+            alias: 'Ashley',
+            research: '',
+            img: 'img/ashley.jpg',
+            bkg_color: '#FFC0CB',
+            intro: 'XDDDD',
+            link: '',
+        },        
     ],
     'Undergraduates': [
         {
