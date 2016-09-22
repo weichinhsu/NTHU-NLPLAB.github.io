@@ -89,6 +89,15 @@ var members = {
             intro: '呵呵呵 好哦',
             link: 'https://youtu.be/7sbKm-hAlsw',
         },
+        {
+            name: '李巧雯',
+            alias: 'ChiaoWen',
+            research: '',
+            img: 'img/chiaowen.jpg',
+            bkg_color: '#f48a6e',
+            intro: '顆顆顆',
+            link: 'https://www.youtube.com/watch?v=iq_d8VSM0nw',
+        },
     ],
     'Undergraduates': [
         {
