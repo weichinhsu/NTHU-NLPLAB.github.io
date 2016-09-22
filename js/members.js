@@ -92,7 +92,16 @@ var members = {
             bkg_color: '#0d5b3c',
             intro: '在不斷的掙扎天空出現一道彩虹，在不斷的懷疑之後找到原來的我。',
             link: 'https://www.youtube.com/watch?v=pbLJxFBOs80'
-        }
+        },
+        {
+            name: '李巧雯',
+            alias: 'ChiaoWen',
+            research: '',
+            img: 'img/chiaowen.jpg',
+            bkg_color: '#f48a6e',
+            intro: '顆顆顆',
+            link: 'https://www.youtube.com/watch?v=iq_d8VSM0nw',
+        },
     ],
     'Undergraduates': [
         {
