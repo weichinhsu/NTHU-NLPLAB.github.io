@@ -65,11 +65,11 @@ var members = {
         {
             name: '吳瑀瑄',
             alias: 'shanny',
-            research: '英文文法（動詞）偵錯與改錯',
+            research: '文法改錯',
             img: 'img/shanny.jpg',
             bkg_color: '#473C8B',
-            intro: '看到我請提醒我記得帶電源線和學生證 (￣３￣)a',
-            link: 'https://youtu.be/Xn676-fLq7I',
+            intro: '走啊，跑步！',
+            link: 'https://youtu.be/m99Py_8NtZE',
         },
         {
             name: '吳奇恩',
