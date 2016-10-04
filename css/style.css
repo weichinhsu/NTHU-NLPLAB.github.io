@@ -29,7 +29,6 @@ body {
     font-weight: 700;
 }
 
-
 /* Custom Button Styles */
 
 .btn-dark {
@@ -87,7 +86,7 @@ hr.small {
     height: 400px;
     margin-bottom: 0px;
 }*/
-.header {
+.main-img {
     display: table;
     position: relative;
     width: 100%;
@@ -153,6 +152,10 @@ hr.small {
     margin-top: 23px;
 }
 
+.ui.cards {
+  margin-bottom: 20px;
+}
+
 /* Contact */
 .contact {
     padding: 50px 0;
@@ -163,4 +166,3 @@ hr.small {
 footer {
     padding: 40px 0;
 }
-

@@ -12,7 +12,9 @@
   <title>自然語言處理實驗室 | NLP Lab.</title>
 
   <!-- Bootstrap Core CSS -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Semantic-UI CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css">
 
   <!-- Custom CSS -->
   <!-- <link href="css/stylish-portfolio.css" rel="stylesheet"> -->
@@ -72,7 +74,7 @@
   <!-- /.container -->
   </nav>
 
-  <header id="top" class="header">
+  <header id="top" class="main-img">
         <div class="text-vertical-center">
             <h1>清華大學自然語言處理實驗室</h1>
             <h3>NTHU Natural Language Processing Lab.</h3>
@@ -85,31 +87,34 @@
   <section id="about" class="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="container-fluid text-center">
           <h2>關於我們 | About Us</h2>
-          <br>
+          <hr class="small">
           <p class="about-text">
             清華大學資訊工程系自然語言系統實驗室成立於1988年，進行各項自然語言相關軟體技術的研發。
           </p>
           <p class="about-text">
             主要的研究項目包含電腦輔助語言學習、文字校對、資訊檢索系統及機器翻譯系統。
           </p>
-          <p class="about-text">Our lab was established in 1988, researching and developing different NLP-related projects. Our main areas of research include computer-assisted language learning, word alignment, information retrieval, and machine translation.</p>
+          <p class="about-text">Our lab was established in 1988, researching and
+            developing different NLP-related projects. </p>
+          <p class="about-text">Our main areas of research include computer-assisted
+            language learning, word alignment, information retrieval, and machine translation.</p>
         </div>
       </div> <!-- /.row -->
     </div> <!-- /.container -->
   </section>
-  
+
   <!-- Research -->
   <section id="research" class="research bg-info">
     <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-10 col-lg-offset-1">
+      <div class="row">
+        <div class="container-fluid text-center">
           <h2>研究 | Research</h2>
           <hr class="small">
           <div class="row research">
-          </div> <!-- /.row (nested) -->
-        </div> <!-- /.col-lg-10 -->
+          </div> <!-- /.row research -->
+        </div> <!-- /.container-fluid -->
       </div> <!-- /.row -->
     </div> <!-- /.container -->
   </section>
@@ -118,42 +123,12 @@
   <section id="project" class="project">
     <div class="container">
       <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div class="container-fluid text-center">
           <h2>專案 | Projects</h2>
           <hr class="small">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="project-item">
-                <a href="http://linggle.com/" target="_blank">
-                  <img class="img-project img-responsive" src="img/linggle.png">
-                </a>
-                <br>
-                <p>Linggle是一個語言搜尋引擎。它提供使用者快速且精準的英文慣用語以及搭配詞的檢索。</p>
-                <p>Linggle is a Web-scale linguistics search engine, that retrieves lexical bundles in response to a given query.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="project-item">
-                <a href="http://writeahead.nlpweb.org/" target="_blank">
-                  <img class="img-project img-responsive" src="img/writeahead.png">
-                </a>
-                <br>
-                <p>互動密集的英語寫作環境，能在學習者寫作時提供即時提示，幫助他們寫得流暢又準確。</p>
-                <p>WriteAhead is a resource-rich, Interactive Writing Environment that provides English learners with writing prompts, as well as "get it right" advice, to helps them write fluently and accurately.</p>
-              </div>
-            </div> <!-- /.row (nested) -->
-            <div class="col-md-4">
-              <div class="project-item">
-                <a href="http://ironman.nlpweb.org:13142/" target="_blank">
-                  <img class="img-project img-responsive" src="img/rephraser.png">
-                </a>
-                <br>
-                <p>Rephraser2.0是一個幫助學習者增加句子豐富度的工具，替原本的句子重新包裝。</p>
-                <p>Rephraser2.0 is a paraphrasing tool, which helps English learners enrich their’s articles. The system paraphrases sentences, expressing the same ideas with different words.</p>
-              </div>
-            </div> <!-- /.row (nested) -->
-          <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
-        </div> <!-- /.col-lg-10 -->
+          <div class="row projects">
+          </div> <!-- /.row projects -->
+        </div> <!-- /.container-fluid -->
       </div> <!-- /.row -->
     </div> <!-- /.container -->
   </section>
@@ -162,76 +137,60 @@
   <section id="member" class="member bg-info">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="container-fluid">
           <h2 class="text-center">成員 | Members</h2>
-          <div class="col-lg-12"><h3 class="page-header">指導教授<small>Advisor</small></h3></div>
-            <div class="row">
-              <div class="col-md-3 ol-sm-6 jason">
-                <img class="img-responsive" src="img/jason.jpg" alt="Jason">
+          <hr class="small">
+          <div class="ui items">
+            <div class="item">
+              <div class="ui  image">
+                <img src="img/jason.jpg">
               </div>
-              <div class="col-md-9 col-sm-6">
-                <h3>張俊盛 教授 <small>Prof. Jason S. Chang</small></h3>
-                <p>Ph.D., New York University</p>
-                <p><strong>研究領域 </strong>Research Field<br>
-                   自然語言處理、數位學習、機器翻譯、自動問題回答、跨語言檢索 <br>
-                   Natural language processing, Digital Learning, Machine Translation, Question Answering</p>
-                <p><strong>教學 </strong>Teaching<br>
-                    ISA5621 自然語言處理實作 Natural Language Processing Lab. <br>
-                    CS6632 機器翻譯 Machine Translation<br>
-                    CS5913 學術英文寫作 Academic Research Writing</p>
-                <p><strong>聯絡 </strong>Email<br>
-                    jschang@cs.nthu.edu.tw</p>
+              <div class="content">
+                <h3>張俊盛 教授 | Prof. Jason S. Chang</h3>
+                <div class="meta">
+                  <span>Ph.D., New York University</span>
+                </div>
+                <div class="description">
+                  <h4>研究領域 | Research Field</h4>
+                  <p>自然語言處理、數位學習、機器翻譯、自動問題回答、跨語言檢索 <br>
+                     Natural language processing, Digital Learning, Machine Translation, Question Answering</p>
+                  <h4>教學 | Teaching</h4>
+                  <p> ISA5621 自然語言處理實作 Natural Language Processing Lab. <br>
+                      CS6632 機器翻譯 Machine Translation<br>
+                      CS5913 學術英文寫作 Academic Research Writing</p>
+                  <h4>聯絡 | Email</h4>
+                  <p>jschang@cs.nthu.edu.tw</p>
+                </div>
               </div>
             </div>
-          <!-- Team Members -->
-          <div class="row">
-            <div class="col-lg-12">
-              <h3 class="page-header">博士生<small>Ph.D. Student</small></h3>
-              <div class="col-md-3">
-                
-                <div class="thumbnail flipbox">
-                  <div class="member-info front">
-                    <img class="img-responsive" src="img/joanne.jpg" alt="Joanne">
-                    <h3>喬安娜<br ><small>Joanne Boisson</small></h3>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-3">
-                <div class="thumbnail flipbox">
-                  <div class="member-info front">
-                    <img class="img-responsive" src="img/jjc.jpg" alt="JJC">
-                    <h3>陳志杰<br ><small>JJC</small></h3>
-                  </div>
-                </div>
-              </div>
-              </div>
-              <div class="col-lg-12">
-                <h3 class="page-header">研究助理<small>Research Assistant</small></h3>
-                  <div class="col-md-3">
-                    <div class="thumbnail flipbox">
-                      <div class="member-info front">
-                        <img class="img-responsive" src="img/henry.jpg" alt="Henry">
-                        <h3>彭晧鈞<br ><small>Henry</small></h3>
-                      </div>
-                    </div>
-                  </div>
-              </div>
-            
           </div>
-          <div class="row ms-students">
-            <div class="col-lg-12">
+            <div class="container-fluid">
+              <h3 class="page-header">博士生<small>Ph.D. Students</small></h3>
+              <div class="row phd-students">
+              </div>
+            </div>
+            <div class="container-fluid">
               <h3 class="page-header">碩士生<small>Master Students</small></h3>
+              <div class="row ms-students">
+              </div>
             </div>
-          </div>
-          <div class="row undergrad">
-            <div class="col-lg-12">
+            <div class="container-fluid">
+              <h3 class="page-header">研究助理<small>Research Assistant</small></h3>
+              <div class="row ra">
+              </div>
+            </div>
+            <div class="container-fluid">
               <h3 class="page-header">專題生<small>Undergraduate Students</small></h3>
+              <div class="row undergraduates">
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+
+
+
 
   <!-- Contact -->
   <section id="contact" class="contact">
@@ -242,26 +201,26 @@
           <hr class="small">
           <div class="row">
             <div class="col-md-6">
-              <h3><small>地址</small></h3>
+              <h4>地址</h4>
               <p>國立清華大學</p>
               <p>臺灣新竹市光復路二段 101 號</p>
               <p>主持人辦公室：台達館 604</p>
-              <p>研究生實驗室：台達館 708, 709, 646</p>
+              <p>研究生實驗室：台達館 708, 709</p>
               <br>
             </div>
             <div class="col-md-6">
-              <h3><small>Address</small></h3>
+              <h4>Address</h4>
               <p>National Tsing Hua University</p>
-              <p>No. 101, Section 2, Kuang-Fu Road, Hsinchu, Taiwan 30013, R.O.C. </p>
+              <p>No. 101, Section 2, Kuang-Fu Road, Hsinchu, Taiwan 30013 </p>
               <p>Advisor's Office: R604, Delta Building</p>
-              <p>Laboratories: R708, 709, 646, Delta Building </p>
+              <p>Laboratories: R708, 709, Delta Building </p>
             </div> <!-- /.row (nested) -->
           <!-- <a href="#" class="btn btn-dark">View More Items</a> -->
         </div> <!-- /.col-lg-10 -->
         </div>
       </div>
     </div>
-    
+
   </section>
 
   <!-- Footer -->
@@ -279,13 +238,15 @@
   <script src="js/jquery.js"></script>
 
   <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
-
+  <!-- <script src="js/bootstrap.min.js"></script> -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
     <!-- Custom JavaScript -->
-    <script src="js/common.js"></script>
-    <script src="js/members.js"></script>
-    <script src="js/research.js"></script>
-    <script src="js/index.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/members.js"></script>
+  <script src="js/research.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
 
