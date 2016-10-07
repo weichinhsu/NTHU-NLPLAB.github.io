@@ -17,7 +17,7 @@ $(function() {
 
 function add_block(member_type) {
   console.log(member_type);
-  var block = '';
+  var block = '<div class="ui four doubling stackable special cards">';
   for( i in members[member_type]) {
       member = members[member_type][i];
       name = escapeHtml(member.name);
@@ -28,28 +28,25 @@ function add_block(member_type) {
       intro = escapeHtml(member.intro);
       link = (member.link) ? 'href="' + encodeURI(member.link) + '" target="_blank"': '';
 
-      block +=  `<div class="col-md-3">
-                      <div class="ui special cards">
-                        <div class="card ` + color + `">
-                          <div class="blurring dimmable image">
-                            <a class="ui dimmer" ` + link + `>
-                              <div class="content">
-                                <div class="center">
-                                  <div class="ui">` + intro + `</div>
-                                </div>
-                              </div>
-                            </a>
-                            <img src="` + img + `">
-                          </div>
-                          <div class="content">
-                            <div class="header">` + name + `</div>
-                            <div class="meta"><span>` + alias + `</span></div>
-                            <div class="description">` + research_area + `</div>
-                          </div>
+      block +=  `<div class="ui fluid card ` + color + `">
+                  <div class="blurring dimmable image">
+                    <a class="ui dimmer" ` + link + `>
+                      <div class="content">
+                        <div class="center">
+                          <div class="ui">` + intro + `</div>
                         </div>
                       </div>
-                    </div>`;
+                    </a>
+                    <img src="` + img + `">
+                  </div>
+                  <div class="content">
+                    <div class="header">` + name + `</div>
+                    <div class="meta"><span>` + alias + `</span></div>
+                    <div class="description">` + research_area + `</div>
+                  </div>
+                </div>`;
   }
+  block +=  `</div>`;
   $('div.' + member_type).append(block);
   $('.special.cards .image').dimmer({
     on: 'hover'
