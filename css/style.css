@@ -80,12 +80,12 @@ hr.small {
     margin: 5px 5px 0 0;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 15px;
+}
+
 /* Header */
 
-/*.header {
-    height: 400px;
-    margin-bottom: 0px;
-}*/
 .main-img {
     display: table;
     position: relative;
@@ -127,15 +127,33 @@ hr.small {
 }
 
 .project-item {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
-.img-project {
-    margin: 0 auto;
+.project-item p {
+    margin-top: 15px;
 }
 
-.img-project:hover {
-    opacity: 0.8;
+.panel-proj {
+    height: 300px;
+}
+
+.img-proj {
+    margin: auto;
+    /*margin-bottom: -5px;*/
+}
+
+.img-proj:hover {
+    opacity: 0.9;
+}
+
+.label {
+    font-weight: 500;
+    font-size: 100%;
+}
+
+.label-gray {
+    background-color: #95a5a6;
 }
 
 /* Members */
