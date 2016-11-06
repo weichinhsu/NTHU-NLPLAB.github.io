@@ -1,5 +1,4 @@
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -33,6 +32,7 @@ p {
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
+    border: solid 1px;
 }
 
 .btn-dark:hover,
@@ -83,17 +83,47 @@ hr.small {
 }
 
 /* Header */
-
-.main-img {
-    display: table;
-    position: relative;
-    width: 100%;
+header {
+    display: flex;
     height: 100%;
-    background: url(../img/bg.png) no-repeat center center scroll;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+header .background {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: block;
+    height: 100%;
+
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: cover;
+    -ms-background-size: cover;
     -o-background-size: cover;
+    background-size: cover;
+}
+
+header .content {
+    /*background: rgba(0, 0, 0, 0.55);
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);*/
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    top: 10px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    padding: 20px;
+    color: white;
 }
 
 /* Section */
