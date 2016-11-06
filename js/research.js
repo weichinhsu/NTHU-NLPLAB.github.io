@@ -12,7 +12,7 @@ var research = {
         },
         {
             name_zh: '機器翻譯',
-            name_en: 'Mazhne Translation',
+            name_en: 'Machine Translation',
             fa: 'fa-globe'
         },
     ],
