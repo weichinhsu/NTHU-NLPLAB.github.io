@@ -47,7 +47,7 @@ $(function() {
     for( i in projects) {
         proj = projects[i];
 
-        proj_block +=  '<div class="ui card">';
+        proj_block +=  '<div class="ui raised link card" href="http://www.dog.com">';
         proj_block +=  `<div class="project content title">
                           <div class="header">` + proj.title + `</div>
                         </div>`;
@@ -67,13 +67,10 @@ $(function() {
                             <p>` + proj.descrip_en + `</p>
                           </div>
                         </div>`;
-                        // <a href="` + proj.label_link + `" target="_blank">
-                        //   <div class="label label-gray">` + proj.label + `</div>
-                        // </a>
         if(proj.label) {
             proj_block +=  `<div class="extra project content center aligned">
                               <a href="` + proj.label_link + `" target="_blank">
-                                <div class="label label-gray">` + proj.label + `</div>
+                                <div class="label project">` + proj.label + `</div>
                               </a>
                             </div>`;
         }

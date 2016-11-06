@@ -3,6 +3,10 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+p {
+  text-align: justify;
+}
+
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -152,8 +156,13 @@ section {
     font-size: 100%;
 }
 
-.label-gray {
-    background-color: #95a5a6;
+.project.label {
+    background-color: teal;
+    opacity: .7
+}
+
+.card:hover .label {
+    opacity: 1;
 }
 
 /* Members */

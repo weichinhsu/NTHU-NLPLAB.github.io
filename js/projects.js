@@ -33,14 +33,14 @@ var projects = [
         descrip_zh: 'Linggle Knows 提供使用者文法與用字建議，以及實用例句來協助英文寫作。',
         descrip_en: 'Linggle Knows is an English grammar search engine. It recommends alternative words, and gives examples.',
         label: 'COLING 2016 System Demo',
-        label_link: '#'
+        label_link: '/publications/coling2016demo_linggleknows.pdf'
     },
     {
         title: 'Linggle Translation',
         img: 'img/trans.png',
         link: 'http://ironman.nlpweb.org:5566/',
-        descrip_zh: 'Linggle Translation',
-        descrip_en: 'Linggle Translation',
+        descrip_zh: 'Linggle Translation 運用了語言學上的理論來處理巨量文本資料，提升了統計式翻譯的一致性',
+        descrip_en: 'Linggle Translation incoporates Synchronous Pattern Grammar (SPG) and improve the consistency of Statistical Machine Translation System (SMT).',
         label: '',
         label_link: '#'
     },
