@@ -16,7 +16,7 @@ var members = {
             img: 'img/jjc.jpg',
             color: 'black',
             intro: '我是胖虎我是孩子王',
-            link: 'https://youtu.be/z2Xsp0HMqf8',
+            link: 'https://dspp779.github.io',
         },
     ],
     'ra': [
