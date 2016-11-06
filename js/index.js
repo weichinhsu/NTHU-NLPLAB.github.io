@@ -15,6 +15,79 @@ $(function() {
     });
 });
 
+$(function () {
+  console.log('test');
+  add_block('phd-students');
+  add_block('ms-students');
+  add_block('ra');
+  add_block('undergraduates');
+});
+
+$(function() {
+    var re_block = '';
+    for( i in research['Research']) {
+        re = research['Research'][i];
+
+        re_block +=  `<div class="col-md-4">
+                        <div class="research-item">
+                          <span class="fa-stack fa-5x">
+                            <i class="fa ` + re.fa + ` text-primary"></i>
+                          </span>
+                          <h3><strong>` + re.name_zh + `</strong></h3>
+                          <h3><strong>` + re.name_en + `</strong></h3>
+                          </div>
+                      </div>`;
+        // console.log(re_block)
+    }
+    $('div.research').append(re_block);
+});
+
+$(function() {
+    var proj_block = '<div class="ui three doubling stackable special cards">';
+    for( i in projects) {
+        proj = projects[i];
+
+        proj_block +=  '<div class="ui card">';
+        proj_block +=  `<div class="project content title">
+                          <div class="header">` + proj.title + `</div>
+                        </div>`;
+        proj_block +=  `<div class="blurring dimmable project image content">
+                          <a class="ui  dimmer" href="` + proj.link + `" target="_blank">
+                            <div class="content">
+                              <div class="center">
+                                <div class="ui primary button">Go to</div>
+                              </div>
+                            </div>
+                          </a>
+                          <img src="` + proj.img + `">
+                        </div>`;
+        proj_block +=  `<div class="project content description">
+                          <div class="description">
+                            <p>` + proj.descrip_zh + `</p>
+                            <p>` + proj.descrip_en + `</p>
+                          </div>
+                        </div>`;
+                        // <a href="` + proj.label_link + `" target="_blank">
+                        //   <div class="label label-gray">` + proj.label + `</div>
+                        // </a>
+        if(proj.label) {
+            proj_block +=  `<div class="extra project content center aligned">
+                              <a href="` + proj.label_link + `" target="_blank">
+                                <div class="label label-gray">` + proj.label + `</div>
+                              </a>
+                            </div>`;
+        }
+        proj_block +=  '</div>';
+    }
+    proj_block +=  '</div>';
+    // console.log(proj_block)
+    $('div.projects').append(proj_block);
+    $('.special.cards .image').dimmer({
+      on: 'hover'
+    });
+});
+
+
 function add_block(member_type) {
   console.log(member_type);
   var block = '<div class="ui four doubling stackable special cards">';
@@ -52,78 +125,3 @@ function add_block(member_type) {
     on: 'hover'
   });
 }
-
-$(function () {
-  console.log('test');
-  add_block('phd-students');
-  add_block('ms-students');
-  add_block('ra');
-  add_block('undergraduates');
-});
-
-$(function() {
-    var re_block = '';
-    for( i in research['Research']) {
-        re = research['Research'][i];
-
-        re_block +=  `<div class="col-md-4">
-                        <div class="research-item">
-                          <span class="fa-stack fa-5x">
-                            <i class="fa ` + re.fa + ` text-primary"></i>
-                          </span>
-                          <h3><strong>` + re.name_zh + `</strong></h3>
-                          <h3><strong>` + re.name_en + `</strong></h3>
-                          </div>
-                      </div>`;
-        // console.log(re_block)
-    }
-    $('div.research').append(re_block);
-});
-
-// $(function() {
-//     var proj_block = '';
-//     for( i in projects['Projects']) {
-//         proj = projects['Projects'][i];
-
-//         proj_block +=  `<div class="col-md-4">
-//                           <div class="project-item">
-//                             <a href="` + proj.link + `" target="_blank">
-//                               <img class="img-project img-responsive" src="` + proj.img + `">
-//                             </a><br>
-//                             <a href="` + proj.label_link + `" target="_blank" class="label label-gray">` + proj.label + `</a>
-//                             <p>` + proj.descrip_zh + `</p>
-//                             <p>` + proj.descrip_en + `</p>
-//                           </div>
-//                         </div>`;
-//     }
-//     // console.log(proj_block)
-//     $('div.projects').append(proj_block);
-// });
-
-
-$(function() {
-    var proj_block = '';
-    for( i in projects['Projects']) {
-        proj = projects['Projects'][i];
-
-        proj_block +=  `<div class="col-md-4">
-                          <div class="panel panel-default panel-proj">
-                            <div class="panel-heading">
-                                <h4>` + proj.title + `</h4>
-                            </div>
-                            <div class="panel-body">
-                              <a href="` + proj.link + `" target="_blank">
-                                <img class="media-object img-proj" src="` + proj.img + `">
-                              </a>
-                              <p>` + proj.descrip_zh + `</p>
-                              <p>` + proj.descrip_en + `</p>
-                              <a href="` + proj.label_link + `" target="_blank">
-                                <div class="label label-gray">` + proj.label + `</div>
-                              </a>
-                            </div>
-                          </div>
-                        </div>`;
-    }
-    // console.log(proj_block)
-    $('div.projects').append(proj_block);
-});
