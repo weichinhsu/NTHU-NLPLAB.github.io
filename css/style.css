@@ -2,10 +2,6 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-p {
-  text-align: justify;
-}
-
 .text-vertical-center {
     display: table-cell;
     text-align: center;
@@ -24,6 +20,10 @@ p {
     padding: 0;
     font-size: 4em;
     font-weight: 700;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /* Custom Button Styles */

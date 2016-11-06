@@ -67,7 +67,7 @@ $(function() {
                           </a>
                           <img src="` + proj.img + `">
                         </div>`;
-        proj_block +=  `<div class="project content description">
+        proj_block +=  `<div class="project content description text-justify">
                           <div class="description">
                             <p>` + proj.descrip_zh + `</p>
                             <p>` + proj.descrip_en + `</p>
