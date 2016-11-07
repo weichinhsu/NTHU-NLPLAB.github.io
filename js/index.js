@@ -1,8 +1,17 @@
 
+// jQuery to collapse the navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+});
+
 $(function() {
   var n = 3;
   var rand = Math.floor((Math.random() * n) + 1);
-  $('header .background').css('background-image', 'linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3),rgba(0,0,0,.1)),url(/img/bg/' + rand + '.jpg)');
+  $('header .background').css('background-image', 'linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3),rgba(0,0,0,.1)),url(/img/bg/' + rand + '.jpg)');
 });
 
 $(function() {
