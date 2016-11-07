@@ -39,8 +39,17 @@ var projects = [
         title: 'Linggle Translation',
         img: 'img/trans.png',
         link: 'http://ironman.nlpweb.org:5566/',
-        descrip_zh: 'Linggle Translation 運用了語言學上的理論來處理巨量文本資料，提升了統計式翻譯的一致性',
+        descrip_zh: 'Linggle Translation 運用了語言學上的理論來處理巨量文本資料，提升了統計式翻譯的一致性。',
         descrip_en: 'Linggle Translation incoporates Synchronous Pattern Grammar (SPG) and improve the consistency of Statistical Machine Translation System (SMT).',
+        label: '',
+        label_link: '#'
+    },
+    {
+        title: 'Verb Replacer',
+        img: 'img/verbreplacer.png',
+        link: 'http://ironman.nlpweb.org:7000/',
+        descrip_zh: 'Verb Replacer 產生相近的動詞，並針對用詞精準評分，找出句子中潛在的誤用動詞。',
+        descrip_en: 'A demo system that automatically learns to generate and evaluate verb alternatives for potentially misused verbs in a given sentence.',
         label: '',
         label_link: '#'
     },

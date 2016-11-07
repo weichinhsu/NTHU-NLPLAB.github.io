@@ -1,8 +1,17 @@
 
+// jQuery to collapse the navbar on scroll
+$(window).scroll(function() {
+    if ($(".navbar").offset().top > 50) {
+        $(".navbar-fixed-top").addClass("top-nav-collapse");
+    } else {
+        $(".navbar-fixed-top").removeClass("top-nav-collapse");
+    }
+});
+
 $(function() {
   var n = 3;
   var rand = Math.floor((Math.random() * n) + 1);
-  $('header .background').css('background-image', 'linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3),rgba(0,0,0,.1)),url(/img/bg/' + rand + '.jpg)');
+  $('header .background').css('background-image', 'linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3),rgba(0,0,0,.1)),url(/img/bg/' + rand + '.jpg)');
 });
 
 $(function() {
@@ -67,7 +76,7 @@ $(function() {
                           </a>
                           <img src="` + proj.img + `">
                         </div>`;
-        proj_block +=  `<div class="project content description">
+        proj_block +=  `<div class="project content description text-justify">
                           <div class="description">
                             <p>` + proj.descrip_zh + `</p>
                             <p>` + proj.descrip_en + `</p>

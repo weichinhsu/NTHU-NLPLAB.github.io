@@ -163,7 +163,7 @@ var members = {
             name: '簡紹安',
             alias: 'Shao-An',
             research: '自然語言搜尋介面',
-            img: 'img/shaoan.png',
+            img: 'img/shaoan.jpg',
             color: 'yellow',
             intro: '',
             link: '',
