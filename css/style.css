@@ -104,7 +104,7 @@ hr.small {
     outline: 0;
 }
 
-.navbar-custom a {
+.navbar-custom, .navbar-custom a {
     color: #fff;
 }
 
