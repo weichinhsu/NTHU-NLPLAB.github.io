@@ -9,12 +9,6 @@ $(window).scroll(function() {
 });
 
 $(function() {
-  var n = 3;
-  var rand = Math.floor((Math.random() * n) + 1);
-  $('header .background').css('background-image', 'linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3),rgba(0,0,0,.1)),url(/img/bg/' + rand + '.jpg)');
-});
-
-$(function() {
     // Scrolls to the selected menu item on the page
     $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
