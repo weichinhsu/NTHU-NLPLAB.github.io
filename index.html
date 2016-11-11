@@ -77,9 +77,8 @@
       <script>
         var n = 3;
         var rand = Math.floor((Math.random() * n) + 1);
-        document.write(`<div class="background"
-          style="background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3),rgba(0,0,0,.1)),url(/img/bg/${rand}.jpg);">
-        </div>`)
+        var bg = `<div class="background" style="background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.3),rgba(0,0,0,.1)),url(/img/bg/${rand}.jpg);"></div>`;
+        document.write(bg)
       </script>
 
       <div class="content text-vertical-center">

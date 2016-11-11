@@ -40,7 +40,7 @@ $(function() {
         re_block +=  `<div class="col-md-4">
                         <div class="research-item">
                           <span class="fa-stack fa-5x">
-                            <i class="fa ${re.fa}text-primary"></i>
+                            <i class="fa ${re.fa} text-primary"></i>
                           </span>
                           <h3><strong>${re.name_zh}</strong></h3>
                           <h3><strong>${re.name_en}</strong></h3>
@@ -56,7 +56,7 @@ $(function() {
     for( i in projects) {
         proj = projects[i];
 
-        proj_block +=  '<div class="ui raised link card" href="http://www.dog.com">';
+        proj_block +=  '<div class="ui raised link card">';
         proj_block +=  `<div class="project content title">
                           <div class="header">${proj.title}</div>
                         </div>`;
