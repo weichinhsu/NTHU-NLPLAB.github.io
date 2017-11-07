@@ -26,6 +26,7 @@ $(function() {
 
 $(function () {
   console.log('test');
+  add_block('postdoc');
   add_block('phd-students');
   add_block('ms-students');
   add_block('ra');
@@ -101,7 +102,7 @@ function add_block(member_type) {
       img = escapeHtml(encodeURI(member.img));
       research_area = escapeHtml(member.research);
       color = escapeHtml(member.color);
-      intro = escapeHtml(member.intro);
+      intro = member.intro;
       link = (member.link) ? 'href="' + encodeURI(member.link) + '" target="_blank"': '';
 
       block +=  '<div class="ui fluid card ' + color + '"> \
