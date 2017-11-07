@@ -26,7 +26,7 @@ $(function() {
 
 $(function () {
   console.log('test');
-  add_block('boss');
+  add_block('postdoc');
   add_block('phd-students');
   add_block('ms-students');
   add_block('ra');
