@@ -289,6 +289,10 @@ section {
     padding: 50px 0;
 }
 
+.one {
+    white-space: pre;
+}
+
 /* Footer */
 
 footer {
