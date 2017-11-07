@@ -121,7 +121,7 @@ var members = {
             img: 'img/chiaowen.jpg',
             color: 'pink',
             intro: '顆顆顆',
-            link: 'https://www.youtube.com/watch?v=iq_d8VSM0nw',
+            link: 'https://www.youtube.com/watch?v=e2QKlmMT8II',
         },
         {
             name: '林昌毅',
@@ -209,7 +209,7 @@ var members = {
             img: 'img/Mictsai.jpg',
             color: 'red',
             intro: '宅錯了嗎<br><br>信妙芳得永生<br>←',
-            link: '',
+            link: 'https://www.youtube.com/watch?v=PBplpprOdyw',
         },
     ],
     'undergraduates': [
