@@ -40,6 +40,24 @@ var members = {
             intro: '',
             link: '',
         },
+        {
+            name: '羅曼',
+            alias: 'Frances',
+            research: '',
+            img: 'img/frances.jpg',
+            color: 'blue',
+            intro: '我顛倒了整個世界，只為擺正你的倒影',
+            link: 'https://www.youtube.com/watch?v=pykyNOEVqCU',
+        },
+        {
+            name: '蓋嘉瑋',
+            alias: 'Jess',
+            research: '',
+            img: 'img/jess.jpg',
+            color: 'blue',
+            intro: '只要游泳',
+            link: '',
+        },
     ],
     'ms-students': [
         // {
@@ -111,16 +129,16 @@ var members = {
             research: 'Deep Learning for NLP <3',
             img: 'img/howard.jpeg',
             color: 'brown',
-            intro: '在不斷的掙扎天空出現一道彩虹，在不斷的懷疑之後找到原來的我。',
+            intro: '',
             link: 'https://www.youtube.com/watch?v=pbLJxFBOs80'
         },
         {
             name: '李巧雯',
             alias: 'ChiaoWen',
-            research: '#',
+            research: 'Chinese Spelling Check',
             img: 'img/chiaowen.jpg',
             color: 'pink',
-            intro: '顆顆顆',
+            intro: '',
             link: 'https://www.youtube.com/watch?v=e2QKlmMT8II',
         },
         {
@@ -136,10 +154,10 @@ var members = {
         {
             name: '程尚謙',
             alias: 'Ashley',
-            research: '#',
+            research: 'Word Sense Disambiguation',
             img: 'img/ashley.jpg',
             color: 'olive',
-            intro: 'XDDDD',
+            intro: '',
             link: '#',
         },
        
@@ -150,7 +168,7 @@ var members = {
             research: '#',
             img: 'img/garnix.jpg',
             color: 'red',
-            intro: '無敵艦隊碾壓世界<br> <br>信妙芳得永生<br>↘',
+            intro: '無敵艦隊碾壓世界',
             link: 'https://www.youtube.com/watch?v=fTYgpGdvFa4',
         },
         
@@ -160,7 +178,7 @@ var members = {
             research: '#',
             img: 'img/ting.jpg',
             color: 'red',
-            intro: '在看我嗎？<br> <br>信妙芳得永生<br>↓',
+            intro: '在看我嗎？',
             link: 'https://www.facebook.com/%E5%A6%99%E8%8A%B3%E5%A4%A7%E5%B8%AB-134564827164423/?ref=br_rs',
         },
         {
@@ -169,8 +187,8 @@ var members = {
             research: '#',
             img: 'img/yee0.jpg',
             color: 'yellow',
-            intro: '矮額 偷看我喔<br><br>信妙芳得永生<br>↙',
-            link: 'https://www.youtube.com/watch?v=1nv9br7P7g0',
+            intro: '矮額 偷看我喔',
+            link: 'https://as10896.github.io',
         },
         {
             name: '彭成全',
@@ -178,7 +196,7 @@ var members = {
             research: '#',
             img: 'img/zeno.jpg',
             color: 'black',
-            intro: 'なに',
+            intro: '',
             link: 'https://www.youtube.com/watch?v=HAIDqt2aUek',
         },
         
@@ -188,7 +206,7 @@ var members = {
             research: '#',
             img: 'img/vincent.jpg',
             color: 'red',
-            intro: '最初的感動<br><br>信妙芳得永生<br>→',
+            intro: '最初的感動',
             link: 'https://www.youtube.com/watch?v=Bjz9VIHTDmo&list=PL68601D29FD1E293F',
         },
         {
@@ -208,7 +226,7 @@ var members = {
             research: '#',
             img: 'img/Mictsai.jpg',
             color: 'red',
-            intro: '宅錯了嗎<br><br>信妙芳得永生<br>←',
+            intro: '宅錯了嗎',
             link: 'https://www.youtube.com/watch?v=PBplpprOdyw',
         },
     ],
