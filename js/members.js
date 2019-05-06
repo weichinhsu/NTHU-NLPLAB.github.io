@@ -9,17 +9,26 @@ var members = {
             intro: '#',
             link: '#',
         },
-    ],
-    'phd-students': [
         {
-            name: 'Joanne Boisson',
-            alias: '喬安娜',
+            name: '杜海倫',
+            alias: 'Helen',
             research: '#',
-            img: 'img/joanne.jpg',
+            img: 'img/helentu.jpg',
             color: 'red',
             intro: '#',
             link: '#',
         },
+    ],
+    'phd-students': [
+        // {
+        //     name: 'Joanne Boisson',
+        //     alias: '喬安娜',
+        //     research: '#',
+        //     img: 'img/joanne.jpg',
+        //     color: 'red',
+        //     intro: '#',
+        //     link: '#',
+        // },
         {
             name: '陳志杰',
             alias: 'jjc',
@@ -31,15 +40,15 @@ var members = {
         },
     ],
     'ra': [
-        {
-            name: '彭晧鈞',
-            alias: 'Henry',
-            research: '',
-            img: 'img/henry.jpg',
-            color: 'blue',
-            intro: '',
-            link: '',
-        },
+        // {
+        //     name: '彭晧鈞',
+        //     alias: 'Henry',
+        //     research: '',
+        //     img: 'img/henry.jpg',
+        //     color: 'blue',
+        //     intro: '',
+        //     link: '',
+        // },
         {
             name: '羅曼',
             alias: 'Frances',
@@ -123,55 +132,52 @@ var members = {
         //     intro: '走啊，跑步！',
         //     link: 'https://youtu.be/m99Py_8NtZE',
         // },
-        {
-            name: '羅右鈞',
-            alias: 'Howard Lo',
-            research: 'Deep Learning for NLP <3',
-            img: 'img/howard.jpeg',
-            color: 'brown',
-            intro: '',
-            link: 'https://www.youtube.com/watch?v=pbLJxFBOs80'
-        },
-        {
-            name: '李巧雯',
-            alias: 'ChiaoWen',
-            research: 'Chinese Spelling Check',
-            img: 'img/chiaowen.jpg',
-            color: 'pink',
-            intro: '',
-            link: 'https://www.youtube.com/watch?v=e2QKlmMT8II',
-        },
-        {
-            name: '林昌毅',
-            alias: 'Chungyilin',
-            research: '5 4 tusi be ba',
-            img: 'img/chungyilin.jpg',
-            color: 'grey',
-            intro: '故人西辭黃鶴樓，煙花三月下揚州<br />孤帆遠影碧空盡，唯見長江天際流。',
-            link: 'https://www.youtube.com/watch?v=HSHOU1OVbaY',
-        },
-        //
-        {
-            name: '程尚謙',
-            alias: 'Ashley',
-            research: 'Word Sense Disambiguation',
-            img: 'img/ashley.jpg',
-            color: 'olive',
-            intro: '',
-            link: '#',
-        },
-       
-        
-        {
-            name: '朱凰華',
-            alias: 'Garnix',
-            research: '#',
-            img: 'img/garnix.jpg',
-            color: 'red',
-            intro: '無敵艦隊碾壓世界',
-            link: 'https://www.youtube.com/watch?v=fTYgpGdvFa4',
-        },
-        
+        // {
+        //     name: '羅右鈞',
+        //     alias: 'Howard Lo',
+        //     research: 'Deep Learning for NLP <3',
+        //     img: 'img/howard.jpeg',
+        //     color: 'brown',
+        //     intro: '',
+        //     link: 'https://www.youtube.com/watch?v=pbLJxFBOs80'
+        // },
+        // {
+        //     name: '李巧雯',
+        //     alias: 'ChiaoWen',
+        //     research: 'Chinese Spelling Check',
+        //     img: 'img/chiaowen.jpg',
+        //     color: 'pink',
+        //     intro: '',
+        //     link: 'https://www.youtube.com/watch?v=e2QKlmMT8II',
+        // },
+        // {
+        //     name: '林昌毅',
+        //     alias: 'Chungyilin',
+        //     research: '5 4 tusi be ba',
+        //     img: 'img/chungyilin.jpg',
+        //     color: 'grey',
+        //     intro: '故人西辭黃鶴樓，煙花三月下揚州<br />孤帆遠影碧空盡，唯見長江天際流。',
+        //     link: 'https://www.youtube.com/watch?v=HSHOU1OVbaY',
+        // },
+        // //
+        // {
+        //     name: '程尚謙',
+        //     alias: 'Ashley',
+        //     research: 'Word Sense Disambiguation',
+        //     img: 'img/ashley.jpg',
+        //     color: 'olive',
+        //     intro: '',
+        //     link: '#',
+        // },
+        // {
+        //     name: '朱凰華',
+        //     alias: 'Garnix',
+        //     research: '#',
+        //     img: 'img/garnix.jpg',
+        //     color: 'red',
+        //     intro: '無敵艦隊碾壓世界',
+        //     link: 'https://www.youtube.com/watch?v=fTYgpGdvFa4',
+        // },
         {
             name: '蔡仲庭',
             alias: 'Ting',
@@ -199,15 +205,14 @@ var members = {
             intro: '',
             link: 'https://www.youtube.com/watch?v=HAIDqt2aUek',
         },
-        
         {
             name: '韓文彬',
             alias: 'Vincent',
             research: '#',
             img: 'img/vincent.jpg',
             color: 'red',
-            intro: '最初的感動',
-            link: 'https://www.youtube.com/watch?v=Bjz9VIHTDmo&list=PL68601D29FD1E293F',
+            intro: '#',
+            link: 'https://hanvincent.cc',
         },
         {
             name: '何佳芳',
@@ -218,8 +223,6 @@ var members = {
             intro: '我愛獨角獸查理',
             link: 'https://www.youtube.com/watch?v=cMOHAcjlIWs',
         },
-        //
-        
         {
             name: '蔡名喬',
             alias: 'Mictsai',
@@ -229,8 +232,6 @@ var members = {
             intro: '宅錯了嗎',
             link: 'https://www.youtube.com/watch?v=PBplpprOdyw',
         },
-    ],
-    'undergraduates': [
         {
             name: '賴怡惠',
             alias: 'Irene',
@@ -249,7 +250,26 @@ var members = {
             intro: '',
             link: '',
         },
-
+        {
+            name: '何沛臻',
+            alias: 'Patina',
+            research: '#',
+            img: 'img/patina.jpg',
+            color: 'red',
+            intro: '',
+            link: '',
+        },
+        {
+            name: '段凱文',
+            alias: 'Kevin',
+            research: '#',
+            img: 'img/kevin.jpg',
+            color: 'red',
+            intro: '',
+            link: '',
+        },
+    ],
+    'undergraduates': [
         // {
         //     name: '徐芷翎',
         //     alias: 'Amy',
