@@ -1,4 +1,4 @@
-var research = {
+const research = {
 	'Research': [
         {
             name_zh: '文法改錯',

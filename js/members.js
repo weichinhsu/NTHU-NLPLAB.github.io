@@ -1,4 +1,4 @@
-var members = {
+const members = {
     'postdoc': [
         {
             name: '楊謦瑜',
