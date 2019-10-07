@@ -268,6 +268,15 @@ const members = {
             intro: '',
             link: '',
         },
+        {
+            name: '吳易東',
+            alias: 'Yizzy',
+            research: '#',
+            img: 'img/yizzy.jpg',
+            color: 'blue',
+            intro: 'Yizzy come Yizzy go.',
+            link: '',
+        },
     ],
     'undergraduates': [
         // {
