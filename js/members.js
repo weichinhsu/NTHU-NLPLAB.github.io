@@ -269,6 +269,14 @@ const members = {
             link: '',
         },
         {
+            name: '郭芝瑜',
+            alias: 'cykuo',
+            research: '#',
+            img: 'img/cykuo.jpg',
+            color: 'red',
+            intro: '好餓',
+        },
+        {
             name: '吳易東',
             alias: 'Yizzy',
             research: '#',
