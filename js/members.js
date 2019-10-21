@@ -330,6 +330,15 @@ const members = {
             intro: '古明地覺最可愛！！',
             link: 'https://sappy5678.github.io/hexo_blog/',
         },
+        {
+            name: '侯芙堤',
+            alias: 'jamie',
+            research: '#',
+            img: 'img/fb.jpg',
+            color: 'yello',
+            intro: 'Whole Foods, Whole People, Whole Planet.',
+            link: '',
+        },
     ],
     'undergraduates': [
         // {
