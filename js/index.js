@@ -95,27 +95,45 @@ function add_block(member_type) {
         const research_area = escapeHtml(member.research);
         const link = (member.link) ? `href="${encodeURI(member.link)}" target="_blank"` : '';
 
-        return `<div class="ui fluid card ${member.color}">
-                    <div class="blurring dimmable image">
-                        <a class="ui dimmer" ${link}>
-                            <div class="content">
-                                <div class="center">
-                                    <div class="ui">${member.intro}</div>
-                                </div>
-                            </div>
-                        </a>
-                        <img src="${img}">
-                    </div>
+        // return `<div class="ui fluid card ${member.color}">
+        //             <div class="blurring dimmable image">
+        //                 <a class="ui dimmer" ${link}>
+        //                     <div class="content">
+        //                         <div class="center">
+        //                             <div class="ui">${member.intro}</div>
+        //                         </div>
+        //                     </div>
+        //                 </a>
+        //                 <img src="${img}">
+        //             </div>
 
-                    <div class="content">
-                        <div class="header">${name}</div>
-                        <div class="meta"><span>${alias}</span></div>
-                        <div class="description">${research_area}</div>
-                    </div>
-                </div>` 
+        //             <div class="content">
+        //                 <div class="header">${name}</div>
+        //                 <div class="meta"><span>${alias}</span></div>
+        //                 <div class="description">${research_area}</div>
+        //             </div>
+        //         </div>` 
+        return `<div class="test">
+        <div class="col-md-2">
+            <img class="people-img" alt="..." src="./${member.img}" >
+        </div>
+        <div class="col-md-10">
+            <div>
+                <h5>${name}</h5>
+                <p>${alias}</p>
+                <p>${member.intro}</p>
+                <p class="people-interest">Interests: ${research_area}</p>
+                <p><small class="text-muted">
+                        <a class="people-ref"><i class="fa fa-calendar"></i> events&emsp;</a>
+                        <a class="people-ref"><i class="fa fa-newspaper-o"></i> publications&emsp;</a>
+                        <a class="people-ref"><i class="fa fa-search"></i> research</a>
+                </small></p>
+            </div>
+        </div>
+    </div>`
     });
 
-    $('div.' + member_type).append(`<div class="ui four doubling stackable special cards">${blocks.join('')}</div>`);
+    $('div.' + member_type).append(`<div class="ui four doubling stackable special member cards">${blocks.join('')}</div>`);
     $('.special.cards .image').dimmer({
         on: 'hover'
     });

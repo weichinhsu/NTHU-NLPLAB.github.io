@@ -284,6 +284,19 @@ section {
   margin-bottom: 20px;
 }
 
+.ui.member.cards {
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+
+.people-img {
+    width: 100%;
+}
+
+.test{
+    margin-bottom: 2rem;
+}
+
 /* Contact */
 .contact {
     padding: 50px 0;
